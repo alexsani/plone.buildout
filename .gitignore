@@ -1,4 +1,6 @@
 .DS_Store
+.installed.cfg
+var/
 eggs/
 bin/*
 parts/*
