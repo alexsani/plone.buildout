@@ -3,13 +3,27 @@ Plone buildout
 A simple plone buildout for development and production purpose
 
 
-Install
---------------
-Use virtualenv to create a isolated Python environments (e.g. in your home):
+Requirements (Debian)
+---------------------
 
-    $ cd /Users/myuser/
-    $ virtualenv --no-site-packages plone-python
-	
+    $ apt-get install git libjpeg8-dev poppler-utils python-dev python-virtualenv wv libxml2-dev libxslt1-dev libxslt1.1 libpq-dev libldap2-dev libsasl2-dev libssl-dev libaio-dev ncurses-dev libpcre3-dev
+
+
+Install (Debian)
+----------------
+Clone git repo locally
+
+    $ git clone virtualenv https://github.com/alexsani/plone.buildout.git plone-test
+
+Create a isolated Python environments with virtualenv (optionally you can add parameter "-p /usr/bin/python2.6" to use a specific python version):
+
+    $ virtualenv --no-site-packages -p /usr/bin/python2.6 plone-test
+
+and, important, activate it:
+
+    $ . plone-test/bin/activate
+
+
 Install PIL downloading it from http://www.pythonware.com/products/pil/ ed extract it;
 install it using python in the virtual-env:
 
