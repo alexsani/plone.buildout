@@ -20,7 +20,7 @@ Install (Debian)
 ----------------
 Clone git repo locally
 
-    $ git clone virtualenv https://github.com/alexsani/plone.buildout.git plone-test
+    $ git clone https://github.com/alexsani/plone.buildout.git plone-test
 
 Create a isolated Python environments with virtualenv (optionally you can add parameter "-p /usr/bin/python2.6" to use a specific python version):
 
