@@ -32,9 +32,13 @@ and, important, activate it:
     $ cd plone-test
     $ . bin/activate
 
-[ONLY for Mac install PIL in the virtualenv
+(ONLY for Mac install PIL in the virtualenv
 
     $ sudo bin/easy_install pillow
+    
+)
+
+    $ sudo bin/python boostrap.py
 
 Install PIL downloading it from http://www.pythonware.com/products/pil/ ed extract it;
 install it using python in the virtual-env:
