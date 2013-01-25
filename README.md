@@ -40,21 +40,7 @@ and, important, activate it:
 
     $ sudo bin/python boostrap.py
 
-Install PIL downloading it from http://www.pythonware.com/products/pil/ ed extract it;
-install it using python in the virtual-env:
+Edit onfiguration file to fit your buildout
 
-    $ cd /path/to/Imaging-1.1.7
-    $ /Users/myuser/plone-python/bin/python setup.py install
-	
-Clone the git repository in a local folder where you have write access:
-    
-    $ cd /Users/myuser/
-    $ git clone https://github.com/alexsani/plone.buildout.git ./plone
-	
-and start to install
-
-    $ cd plone
-    $ /Users/myuser/plone-python/bin/python boostrap.py --distribute
-    $ bin/buildout
 
 
