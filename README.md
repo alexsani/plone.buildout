@@ -11,10 +11,11 @@ Requirements (Debian)
 Requirements (Mac)
 ---------------------
  - Git (https://help.github.com/articles/set-up-git)
- - XCode from App Store
+ - XCode from App Store (from XCode preference also install "Command line tools")
  - VirtualEnv                         
                           
         $ sudo easy_install virtualenv
+
 
 Install (Debian)
 ----------------
@@ -24,12 +25,16 @@ Clone git repo locally
 
 Create a isolated Python environments with virtualenv (optionally you can add parameter "-p /usr/bin/python2.6" to use a specific python version):
 
-    $ virtualenv --no-site-packages -p /usr/bin/python2.6 plone-test
+    $ sudo virtualenv --no-site-packages -p /usr/bin/python2.6 plone-test
 
 and, important, activate it:
 
-    $ . plone-test/bin/activate
+    $ cd plone-test
+    $ . bin/activate
 
+[ONLY for Mac install PIL in the virtualenv
+
+    $ sudo bin/easy_install pillow
 
 Install PIL downloading it from http://www.pythonware.com/products/pil/ ed extract it;
 install it using python in the virtual-env:
