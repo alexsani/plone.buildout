@@ -19,6 +19,7 @@ buildout.cfg
 .svn/
 .project
 .pydevproject
+.Python
 bin/
 build/
 develop-eggs/
@@ -28,8 +29,9 @@ fake-eggs/
 parts/
 dist/
 var/
-
-
+lib/
+include/
+src/*
 
 # OSX
 .DS_Store
